@@ -1,6 +1,19 @@
 import React from "react";
 import './about-me-container.styles.scss';
 import Fade from 'react-reveal/Fade';
+import animojiFront from '../../assets/animoji-front.png';
+import animojiLeft from '../../assets/animoji-left.png';
+import animojiRight from '../../assets/animoji-right.png';
+import animojiUp from '../../assets/animoji-up.png';
+import animojiDown from '../../assets/animoji-down.png';
+import animojiRightUp from '../../assets/animoji-right-up.png';
+import animojiRightDown from '../../assets/animoji-right-down.png';
+import animojiLeftUp from '../../assets/animoji-left-up.png';
+import animojiLeftDown from '../../assets/animoji-left-down.png';
+import githubLogo from '../../assets/github-logo.png';
+import linkedinLogo from '../../assets/linkedin-logo.png';
+import facebookLogo from '../../assets/facebook-logo.png';
+import instagramLogo from '../../assets/instagram-logo.jpg';
 
 const AboutMeContainer = () => {
 
@@ -37,31 +50,31 @@ const AboutMeContainer = () => {
         console.log(angle);
         
         if(event.clientX >= rect.left && event.clientX <= rect.right && event.clientY >= rect.top && event.clientY <= rect.bottom) {
-            document.getElementById("animoji").src = "assets/animoji-front.png";
+            document.getElementById("animoji").src = animojiFront;
         }
         else if(angle > 337.5 || angle <= 22.5) {
-            document.getElementById("animoji").src = "assets/animoji-right.png";
+            document.getElementById("animoji").src = animojiRight;
         }
         else if(angle > 22.5 && angle <= 67.5) {
-            document.getElementById("animoji").src = "assets/animoji-right-up.png";
+            document.getElementById("animoji").src = animojiRightUp;
         }
         else if(angle > 67.5 && angle <= 112.5) {
-            document.getElementById("animoji").src = "assets/animoji-up.png";
+            document.getElementById("animoji").src = animojiUp;
         }
         else if(angle > 112.5 && angle <= 157.5) {
-            document.getElementById("animoji").src = "assets/animoji-left-up.png";
+            document.getElementById("animoji").src = animojiLeftUp;
         }
         else if(angle > 157.5 && angle <= 202.5) {
-            document.getElementById("animoji").src = "assets/animoji-left.png";
+            document.getElementById("animoji").src = animojiLeft;
         }
         else if(angle > 202.5 && angle <= 247.5) {
-            document.getElementById("animoji").src = "assets/animoji-left-down.png";
+            document.getElementById("animoji").src = animojiLeftDown;
         }
         else if(angle > 247.5 && angle <= 292.5) {
-            document.getElementById("animoji").src = "assets/animoji-down.png";
+            document.getElementById("animoji").src = animojiDown;
         }
         else if(angle > 292.5 && angle <= 337.5) {
-            document.getElementById("animoji").src = "assets/animoji-right-down.png";
+            document.getElementById("animoji").src = animojiRightDown;
         }
     }
 
@@ -86,19 +99,19 @@ const AboutMeContainer = () => {
                 <div className="col-md about-me-right" onMouseMove={handleImageDisplay} >
                     <div className="inner-right">
                         <Fade right>
-                            <img src="assets/animoji-front.png" alt="About Image" id="animoji" className="about-me-img" />
+                            <img src={animojiFront} alt="About Image" id="animoji" className="about-me-img" />
                             <div className="social-media-container">
                                 <a href="https://github.com/ahmedgulabkhan" >
-                                    <img src="assets/github-logo.png" alt="Github" className="social-imgs" />
+                                    <img src={githubLogo} alt="Github" className="social-imgs" />
                                 </a>
                                 <a href="https://www.linkedin.com/in/ahmedgulabkhan/" >
-                                    <img src="assets/linkedin-logo.png" alt="Linkedin" className="social-imgs" />
+                                    <img src={linkedinLogo} alt="Linkedin" className="social-imgs" />
                                 </a>
                                 <a href="https://www.facebook.com/ahmedgulabkhan" >
-                                    <img src="assets/facebook-logo.png" alt="Facebook" className="social-imgs" />
+                                    <img src={facebookLogo} alt="Facebook" className="social-imgs" />
                                 </a>
                                 <a href="https://www.instagram.com/gulab_khan__/" >
-                                    <img src="assets/instagram-logo.jpg" alt="Instagram" className="social-imgs" />
+                                    <img src={instagramLogo} alt="Instagram" className="social-imgs" />
                                 </a>
                             </div>
                             <div className="btn-container">
