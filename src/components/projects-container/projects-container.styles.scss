@@ -1,0 +1,197 @@
+.projects-container {
+    text-align: center;
+
+    .inner {
+        padding: 40px 100px;
+        
+        .projects-header {
+            font-weight: 700;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+    
+        .row {
+            .project-containers {
+                // background-color: #1565c0;
+                text-align: left;
+                text-decoration: none;
+                color: black;
+                margin: 20px;
+                padding: 20px;
+                //height: 180px;
+                border-radius: 5px;
+                box-shadow: 0px 0px 6px rgba(grey, 0.4);
+                // width: 50px;
+
+                &:hover {
+                    background-color: #1565c0;
+                    color: white;
+                }
+
+                .project-name {
+                    font-size: 28px;
+                }
+                .project-details {
+                    font-size: 17px;
+                }
+            }
+        }
+
+        .more-projects {
+            margin: 30px 0px;
+            .btn {
+                padding: 15px 30px;
+                color: #1565c0;
+                border: 2px solid #1565c0;
+                font-weight: 600;
+                font-size: 24px;
+
+                &:hover {
+                    background-color: #1565c0;
+                    color: white;
+                    //box-shadow: 0px 5px 10px rgba(black, 0.7);
+                }
+                &:focus {
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 992px) {
+    .projects-container {
+        // background-color: lightseagreen;
+        text-align: center;
+        //color: black;
+    
+        .inner {
+            padding: 30px 60px;
+            // background-color: red;
+            
+            .projects-header {
+                font-weight: 700;
+                font-size: 36px;
+                margin-bottom: 18px;
+            }
+        
+            .row {
+                .project-containers {
+                    // background-color: #1565c0;
+                    text-align: left;
+                    text-decoration: none;
+                    color: black;
+                    margin: 17px 0px;
+                    padding: 17px;
+                    //height: 180px;
+                    border-radius: 5px;
+                    box-shadow: 0px 0px 6px rgba(grey, 0.4);
+                    // width: 50px;
+    
+                    &:hover {
+                        background-color: #1565c0;
+                        color: white;
+                    }
+    
+                    .project-name {
+                        font-size: 23px;
+                    }
+                    .project-details {
+                        font-size: 14px;
+                    }
+                }
+            }
+    
+            .more-projects {
+                margin: 26px 0px;
+                .btn {
+                    padding: 14px 28px;
+                    color: #1565c0;
+                    border: 2px solid #1565c0;
+                    font-weight: 600;
+                    font-size: 20px;
+    
+                    &:hover {
+                        background-color: #1565c0;
+                        color: white;
+                        //box-shadow: 0px 5px 10px rgba(black, 0.7);
+                    }
+                    &:focus {
+                        outline: none;
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .projects-container {
+        // background-color: lightseagreen;
+        text-align: center;
+        //color: black;
+    
+        .inner {
+            padding: 20px 40px;
+            // background-color: red;
+            
+            .projects-header {
+                font-weight: 700;
+                font-size: 30px;
+                margin-bottom: 16px;
+            }
+        
+            .row {
+                .project-containers {
+                    // background-color: #1565c0;
+                    text-align: left;
+                    text-decoration: none;
+                    color: black;
+                    margin: 15px 0px;
+                    padding: 15px;
+                    //height: 180px;
+                    border-radius: 5px;
+                    box-shadow: 0px 0px 6px rgba(grey, 0.4);
+                    // width: 50px;
+    
+                    &:hover {
+                        background-color: #1565c0;
+                        color: white;
+                    }
+    
+                    .project-name {
+                        font-size: 21px;
+                    }
+                    .project-details {
+                        font-size: 12px;
+                    }
+                }
+            }
+    
+            .more-projects {
+                margin: 24px 0px;
+                .btn {
+                    padding: 13px 26px;
+                    color: #1565c0;
+                    border: 2px solid #1565c0;
+                    font-weight: 600;
+                    font-size: 18px;
+    
+                    &:hover {
+                        background-color: #1565c0;
+                        color: white;
+                        //box-shadow: 0px 5px 10px rgba(black, 0.7);
+                    }
+                    &:focus {
+                        outline: none;
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+}

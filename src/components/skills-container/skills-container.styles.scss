@@ -1,0 +1,232 @@
+.skills-container {
+    height: 100vh;
+    color: white;
+    //padding: 0;
+
+    .row {
+        text-align: center;
+        height: 100%;
+        padding: 0;
+
+        .skills-right {
+            height: 100%;
+            background-color: #1565c0;
+            
+            .inner {
+                padding: 0px 60px;
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                .skills-right-header {
+                    font-weight: 700;
+                    font-size: 48px;
+                }
+                .skills-right-imgs {
+                    background-color: white;
+                    box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.5);
+                    padding: 20px;
+
+                    .html-5 {
+                        height: 50px;
+                        width: 45.83px;
+                    }
+
+                    .css-3 {
+                        height: 50px;
+                        width: 44.55px;
+                    }
+
+                    .bootstrap, .javascript, .reactjs, .python {
+                        height: 50px;
+                        width: 50px;
+                    }
+
+                    .nodejs {
+                        height: 30.625px;
+                        width: 50px;
+                    }
+
+                    .flutter {
+                        height: 50px;
+                        width: 40.36px;
+                    }
+
+                    .firebase {
+                        height: 50px;
+                        width: 37.72px;
+                    }
+
+                    .mongodb {
+                        height: 50px;
+                        width: 28.26px;
+                    }
+
+                    .skills-icon {
+                        margin: 10px;
+                        filter: grayscale(100%);
+                        &:hover {
+                            filter: grayscale(0%);
+                        }
+                    }
+                }
+            }
+        }
+    
+        .skills-left {
+            height: 100%;
+            display: flex;
+            //padding: 0 40px;
+
+            .skills-img {
+                margin: auto;
+                height: 70%;
+                width: 70%;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 992px) {
+    .skills-container {
+        height: 100vh;
+        color: white;
+    
+        .row {
+            text-align: center;
+            height: 100%;
+            padding: 0;
+    
+            .skills-right {
+                height: 100%;
+                background-color: #1565c0;
+                
+                .inner {
+                    padding: 0px 40px;
+                    position: relative;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    .skills-right-header {
+                        font-weight: 700;
+                        font-size: 36px;
+                    }
+                    .skills-right-imgs {
+                        background-color: white;
+                        padding: 18px;
+
+                        .skills-icon {
+                            margin: 8px;
+                            filter: grayscale(100%);
+                            &:hover {
+                                filter: grayscale(0%);
+                            }
+                        }
+                    }
+                }
+            }
+        
+            .skills-left {
+                height: 100%;
+                display: flex;
+                //padding: 0 40px;
+    
+                .skills-img {
+                    margin: auto;
+                    height: 70%;
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .skills-container {
+        height: 100vh;
+        color: white;
+    
+        .row {
+            text-align: center;
+            height: 100%;
+            padding: 0;
+            display: flex;
+    
+            .skills-right {
+                height: 50%;
+                background-color: #1565c0;
+                
+                .inner {
+                    padding: 0px 40px;
+                    position: relative;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    .skills-right-header {
+                        font-weight: 700;
+                        font-size: 30px;
+                    }
+                    .skills-right-imgs {
+                        background-color: white;
+                        padding: 16px;
+
+                        .html-5 {
+                            height: 41.67px;
+                            width: 38.2px;
+                        }
+    
+                        .css-3 {
+                            height: 41.67px;
+                            width: 37.125px;
+                        }
+    
+                        .bootstrap, .javascript, .reactjs, .python {
+                            height: 41.67px;
+                            width: 41.67px;
+                        }
+    
+                        .nodejs {
+                            height: 25.52px;
+                            width: 41.67px;
+                        }
+    
+                        .flutter {
+                            height: 41.67px;
+                            width: 33.63px;
+                        }
+    
+                        .firebase {
+                            height: 41.67px;
+                            width: 31.43px;
+                        }
+    
+                        .mongodb {
+                            height: 41.67px;
+                            width: 23.55px;
+                        }
+
+                        .skills-icon {
+                            margin: 7px;
+                            filter: grayscale(100%);
+                            &:hover {
+                                filter: grayscale(0%);
+                            }
+                        }
+                    }
+                }
+            }
+        
+            .skills-left {
+                height: 50%;
+                display: flex;
+                order: 2;
+                //padding: 0 40px;
+    
+                .skills-img {
+                    margin: auto;
+                    height: 70%;
+                    width: 70%;
+                }
+            }
+        }
+    }
+}

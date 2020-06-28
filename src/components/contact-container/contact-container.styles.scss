@@ -1,0 +1,220 @@
+.contact-container {
+    height: 100vh;
+    color: white;
+    //padding: 0;
+
+    .row {
+        text-align: center;
+        height: 100%;
+        padding: 0;
+
+        .contact-left {
+            height: 100%;
+            background-color: #1565c0;
+            
+            .inner {
+                padding: 0px 30px;
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                .contact-left-header {
+                    font-weight: 700;
+                    font-size: 48px;
+                }
+                .contact-left-text {
+                    font-size: 20px;
+                    
+                }
+                .contact-left-img {
+                    text-align: center;
+                    margin: 8px;
+                    .circular-image {
+                        height: 250px;
+                        width: 250px;
+                        border-radius: 50%;
+                        border: 3px solid white;
+                        &:hover {
+                            box-shadow: 0px 0px 20px rgba(black, 0.5);
+                        }
+                    }
+                }
+                .social-media-container {
+                    .social-imgs {
+                        border-radius: 50%;
+                        height: 36px;
+                        width: 36px;
+                        margin: 8px 8px;
+                        &:hover {
+                            box-shadow: 0px 0px 7px rgba(black, 0.5);
+                        }
+                    }
+                }
+                .location {
+                    font-size: 18px;
+                }
+            }
+        }
+    
+        .contact-right {
+            height: 100%;
+            display: flex;
+            // padding: 0 40px;
+
+            .contact-img {
+                margin: auto;
+                height: 80%;
+                width: 80%;
+            }
+        }
+    }
+}
+
+
+// For Max width of 992 pixels
+@media (max-width: 992px) {
+    .contact-container {
+        height: 100vh;
+        color: white;
+        //padding: 0;
+    
+        .row {
+            text-align: center;
+            height: 100%;
+            padding: 0;
+    
+            .contact-left {
+                height: 100%;
+                background-color: #1565c0;
+                
+                .inner {
+                    padding: 0px 25px;
+                    position: relative;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    .contact-left-header {
+                        font-weight: 700;
+                        font-size: 36px;
+                    }
+                    .contact-left-text {
+                        font-size: 18px;
+                        
+                    }
+                    .contact-left-img {
+                        text-align: center;
+                        margin: 6px;
+                        .circular-image {
+                            height: 200px;
+                            width: 200px;
+                            border-radius: 50%;
+                            border: 2px solid white;
+                            &:hover {
+                                box-shadow: 0px 0px 20px rgba(black, 0.5);
+                            }
+                        }
+                    }
+                    .social-media-container {
+                        .social-imgs {
+                            border-radius: 50%;
+                            height: 30px;
+                            width: 30px;
+                            margin: 3.5px 6px;
+                            &:hover {
+                                box-shadow: 0px 0px 7px rgba(black, 0.5);
+                            }
+                        }
+                    }
+                    .location {
+                        font-size: 16px;
+                    }
+                }
+            }
+        
+            .contact-right {
+                height: 100%;
+                display: flex;
+                // padding: 0 40px;
+    
+                .contact-img {
+                    margin: auto;
+                    height: 80%;
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
+
+// For Max width of 768 pixels
+@media (max-width: 768px) {
+    .contact-container {
+        height: 100vh;
+        color: white;
+        //padding: 0;
+    
+        .row {
+            text-align: center;
+            height: 100%;
+            padding: 0;
+    
+            .contact-left {
+                height: 50%;
+                background-color: #1565c0;
+                
+                .inner {
+                    padding: 0px 20px;
+                    position: relative;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    .contact-left-header {
+                        font-weight: 700;
+                        font-size: 30px;
+                    }
+                    .contact-left-text {
+                        font-size: 14px;
+                        
+                    }
+                    .contact-left-img {
+                        text-align: center;
+                        margin: 5px;
+                        .circular-image {
+                            height: 125px;
+                            width: 125px;
+                            border-radius: 50%;
+                            border: 2px solid white;
+                            &:hover {
+                                box-shadow: 0px 0px 20px rgba(black, 0.5);
+                            }
+                        }
+                    }
+                    .social-media-container {
+                        .social-imgs {
+                            border-radius: 50%;
+                            height: 20px;
+                            width: 20px;
+                            margin: 3px 5px;
+                            &:hover {
+                                box-shadow: 0px 0px 7px rgba(black, 0.5);
+                            }
+                        }
+                    }
+                    .location {
+                        font-size: 14px;
+                    }
+                }
+            }
+        
+            .contact-right {
+                height: 50%;
+                display: flex;
+                // padding: 0 40px;
+    
+                .contact-img {
+                    margin: auto;
+                    height: 80%;
+                    width: 80%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,242 @@
+.about-me-container {
+    // height: 100vh - 10vh;
+    height: 100vh;
+    color: white;
+    //padding: 0;
+
+    .row {
+        //text-align: center;
+        height: 100%;
+        padding: 0;
+
+        .about-me-left {
+            height: 100%;
+            background-color: #1565c0;
+            
+            .inner {
+                padding: 0px 40px;
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                .about-me-left-header {
+                    font-weight: 700;
+                    font-size: 48px;
+                }
+                .about-me-left-text {
+                    font-size: 20px;
+                }
+            }
+        }
+    
+        .about-me-right {
+            height: 100%;
+            //display: flex;
+            // padding: 0 40px;
+            text-align: center;
+
+            .inner-right {
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                .about-me-img {
+                    margin: 20px;
+                    display: inline-block;
+                    // height: 80%;
+                    // width: 80%;
+                    height: 250px;
+                    width: 250px;
+                }
+                .social-media-container {
+                    margin: auto;
+                    .social-imgs {
+                        border-radius: 50%;
+                        height: 36px;
+                        width: 36px;
+                        margin: 8px 8px;
+                        &:hover {
+                            box-shadow: 0px 0px 7px rgba(black, 0.5);
+                        }
+                    }
+                }
+
+                .btn-container {
+                    margin: 12px 0px;
+                    .btn {
+                        padding: 8px 16px;
+                        color: #1565c0;
+                        border: 2px solid #1565c0;
+                        font-weight: 600;
+                        font-size: 18px;
+        
+                        &:hover {
+                            background-color: #1565c0;
+                            color: white;
+                            //box-shadow: 0px 5px 10px rgba(black, 0.7);
+                        }
+                        &:focus {
+                            outline: none;
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .about-me-container {
+        // height: 100vh - 10vh;
+        height: 100vh;
+        color: white;
+
+        .row {
+            // text-align: center;
+            height: 100%;
+            padding: 0;
+
+            .about-me-left {
+                height: 100%;
+                background-color: #1565c0;
+                padding: 0px 0px;
+                
+                .inner {
+                    padding: 0px 40px;
+                    position: relative;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    .about-me-left-header {
+                        font-weight: 700;
+                        font-size: 36px;
+                    }
+                    .about-me-left-text {
+                        // font-size: 18px;
+                        font-size: 17px;
+                    }
+                }
+            }
+        
+            .about-me-right {
+                height: 100%;
+                //display: flex;
+                // padding: 0 40px;
+                text-align: center;
+    
+                .inner-right {
+                    position: relative;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    .about-me-img {
+                        margin: 15px;
+                        display: inline-block;
+                        // height: 80%;
+                        // width: 80%;
+                        height: 180px;
+                        width: 180px;
+                    }
+                    .social-media-container {
+                        margin: auto;
+                        .social-imgs {
+                            border-radius: 50%;
+                            height: 30px;
+                            width: 30px;
+                            margin: 6px 6px;
+                            &:hover {
+                                box-shadow: 0px 0px 7px rgba(black, 0.5);
+                            }
+                        }
+                    }
+
+                    .btn-container {
+                        margin: 12px 0px;
+                        .btn {
+                            padding: 8px 16px;
+                            color: #1565c0;
+                            border: 2px solid #1565c0;
+                            font-weight: 600;
+                            font-size: 18px;
+            
+                            &:hover {
+                                background-color: #1565c0;
+                                color: white;
+                                //box-shadow: 0px 5px 10px rgba(black, 0.7);
+                            }
+                            &:focus {
+                                outline: none;
+                                box-shadow: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .about-me-container {
+        // height: 100vh - 10vh;
+        height: 100vh;
+        color: white;
+
+        .row {
+            // text-align: center;
+            height: 100%;
+            padding: 0;
+
+            .about-me-left {
+                height: 50%;
+                background-color: #1565c0;
+                padding: 0px 0px;
+                
+                .inner {
+                    padding: 0px 40px;
+                    position: relative;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    .about-me-left-header {
+                        font-weight: 700;
+                        font-size: 30px;
+                    }
+                    .about-me-left-text {
+                        // font-size: 18px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        
+            .about-me-right {
+                height: 50%;
+                //display: flex;
+                // padding: 0 40px;
+                text-align: center;
+    
+                .inner-right {
+                    position: relative;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    .about-me-img {
+                        margin: 12px;
+                        display: inline-block;
+                        // height: 80%;
+                        // width: 80%;
+                        height: 150px;
+                        width: 150px;
+                    }
+                    .social-media-container {
+                        margin: auto;
+                        .social-imgs {
+                            border-radius: 50%;
+                            height: 24px;
+                            width: 24px;
+                            margin: 4.5px 4.5px;
+                            &:hover {
+                                box-shadow: 0px 0px 7px rgba(black, 0.5);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

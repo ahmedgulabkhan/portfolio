@@ -1,0 +1,54 @@
+.navbar {
+    background-color: white;
+    margin: 20px 0px 10px 0px;
+    padding: 0px 35px;
+
+
+    .navbar-toggler {
+        background-color: #1565c0;
+    }
+
+    .navbar-brand {
+        color: black;
+        font-weight: bold;
+        font-size: 24px;
+        &:hover {
+            color:#1565c0;
+            //text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: black;
+                text-decoration: none;
+                padding: 15px 30px;
+                &:hover {
+                    background-color: rgb(240, 240, 240);
+                }
+            }
+        }
+    }
+}
+
+
+// For max width of 992 pixels
+@media (max-width: 992px) {
+    .navbar {
+        .navbar-brand {
+            font-size: 19px;
+        }
+    }
+}
+
+
+// For max width of 768 pixels
+@media (max-width: 768px) {
+    .navbar {
+        .navbar-brand {
+            font-size: 17px;
+        }
+    }
+}

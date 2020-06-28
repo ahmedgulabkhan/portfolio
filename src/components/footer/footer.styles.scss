@@ -1,0 +1,27 @@
+.footer-container {
+    padding: 10px 0px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+// For Max width of 992 pixels
+@media(max-width: 992px) {
+    .footer-container {
+        padding: 8px 0px;
+        color: black;
+        font-size: 17px;
+        text-align: center;
+    }
+}
+
+
+// For Max width of 768 pixels
+@media(max-width: 768px) {
+    .footer-container {
+        padding: 6px 0px;
+        color: black;
+        font-size: 14px;
+        text-align: center;
+    }
+}
