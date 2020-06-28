@@ -9,6 +9,8 @@ import Footer from './components/footer/footer.component';
 import { css } from "@emotion/core";
 import BarLoader from "react-spinners/BarLoader";
 
+
+// This overrides the CSS properties of the BarLoader
 const override = css`
   display: block;
   margin: auto;
