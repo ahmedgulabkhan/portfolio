@@ -47,7 +47,7 @@ const AboutMeContainer = () => {
         var cy = rect.top + rect.height * 0.5;
 
         var angle = getAngle(cx, cy, event.clientX, event.clientY);
-        console.log(angle);
+        // console.log(angle);
         
         if(event.clientX >= rect.left && event.clientX <= rect.right && event.clientY >= rect.top && event.clientY <= rect.bottom) {
             document.getElementById("animoji").src = animojiFront;
