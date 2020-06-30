@@ -87,11 +87,11 @@ const AboutMeContainer = () => {
                             <div className="about-me-left-header">Hey there! ✌</div>
                             <br />
                             <div className="about-me-left-text">
-                                {/* My name is Ahmed Gulab Khan. */}
-                                {/* I am an undergrad currently pursuing my B. Tech in Electronics and Communication 
+                                My name is Ahmed Gulab Khan.
+                                I am an undergrad currently pursuing my B. Tech in Electronics and Communication 
                                 Engineering from National Institute of Technology, Warangal (Batch of 2020). 
                                 I have a great passion towards Programming, Software Development and 
-                                Artificial Intelligence. */}
+                                Artificial Intelligence.
                             </div>
                         </Fade>
                     </div>
